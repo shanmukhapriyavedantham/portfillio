@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="cursor"></div>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <span class="bracket">{</span>Portfolio<span class="bracket">}</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#career-summary">Career</a>
+            <a href="#resume">Resume</a>
+            <a href="#cover-letter">Cover Letter</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="hero-content" data-aos="fade-up">
+            <div class="intro-text">
+                <h1>Hello, I'm <span class="highlight">V.Shanmukhapriya</span></h1>
+                <div class="title-wrapper">
+                    <div class="title-item">Creative Developer</div>
+                    <div class="title-item">web Developer </div>
+                    <div class="title-item">Problem Solver</div>
+                </div>
+            </div>
+            <p class="bio">Crafting digital experiences through elegant code and creative design</p>
+            <div class="cta-buttons">
+                <a href="#work" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Let's Talk</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span></span>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <p>I'm a passionate developer who loves creating beautiful and functional websites. With expertise in both design and development, I bring ideas to life through clean code and creative solutions.</p>
+                <div class="skills-container">
+                    <h3>My Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Tableau</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Html</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>Css</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>Basics of SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-container soft-skills">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Work</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Time Management</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Critical Thinking</span>
+                        </div>
+                        <div class="soft-skill-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <img src="https://i.ibb.co/Z6JLx4V0/me.jpg" alt="Profile">
+                <div class="experience-badge"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="career-summary">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Career Summary</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="career-container">
+            <div class="career-content" data-aos="fade-up">
+                <div class="objectives-grid">
+                    <div class="objective-card">
+                        <div class="objective-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Career Objective</h3>
+                        <p>Aspiring Data Scientist seeking to leverage my strong foundation in data analysis and visualization to contribute to data-driven decision making in innovative organizations.</p>
+                    </div>
+                    
+                    <div class="objective-card">
+                        <div class="objective-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Short-term Goals</h3>
+                        <ul>
+                            <li>Complete advanced certifications in Data Science and Machine Learning</li>
+                            <li>Gain practical experience through internships and real-world projects</li>
+                            <li>Develop expertise in advanced data visualization techniques</li>
+                        </ul>
+                    </div>
+
+                    <div class="objective-card">
+                        <div class="objective-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Long-term Goals</h3>
+                        <ul>
+                            <li>Lead data science projects in a reputable organization</li>
+                            <li>Contribute to innovative solutions in the field of AI and ML</li>
+                            <li>Mentor and guide aspiring data scientists</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Resume</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="resume-container">
+            <div class="resume-section education" data-aos="fade-right">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2025</div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Science</h4>
+                            <p>Specialization:Data Science</p>
+                            <p>KBN College</p>
+                            <p>CGPA: 8.0</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-content">
+                            <h4>Intermediate Education</h4>
+                            <p>KBN College</p>
+                            <p>Percentage: 75%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 - 2020</div>
+                        <div class="timeline-content">
+                            <h4>SSC</h4>
+                            <p>AKTPM High School</p>
+                            <p>Percentage: 88%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-section certifications" data-aos="fade-left">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <div class="cert-content">
+                            <h4>MS Office</h4>
+                            <p>KBN College</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon"><i class="fas fa-award"></i></div>
+                        <div class="cert-content">
+                            <h4>Communications</h4>
+                            <p>Unnati</p>
+                            <span class="cert-date">2023</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon"><i class="fas fa-music"></i></div>
+                        <div class="cert-content">
+                            <h4>Carnatic Music</h4>
+                            <p class="cert-type">Soft Skill Certification</p>
+                            <p>Completed 5 years of training</p>
+                            <span class="cert-date">2018</span>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                        <div class="cert-content">
+                            <h4>Ancient Bot Development</h4>
+                            <p class="cert-type">Technical Certification</p>
+                            <p>Packetprep</p>
+                            <span class="cert-date">July 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-section talents" data-aos="fade-right">
+                <h3><i class="fas fa-star"></i> Talents</h3>
+                <div class="talents-grid">
+                    <div class="talent-item">
+                        <div class="talent-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="talent-content">
+                            <h4>Carnatic Music</h4>
+                            <p>Classical Vocal Training</p>
+                            <ul class="talent-details">
+                                <li>5 years of formal training</li>
+                                <li>Certified performer</li>
+                                <li>Participated in cultural events</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- You can add more talents here -->
+                </div>
+            </div>
+
+            <div class="resume-download" data-aos="fade-up">
+                <a href="https://drive.google.com/file/d/1jUTvArp-ydVoytFAVXaTdQXFDT_usAlX/view?usp=drivesdk" class="btn primary" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cover-letter">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Cover Letter</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="cover-letter-container">
+            <div class="cover-letter-content" data-aos="fade-up">
+                <div class="letter-header">
+                    <h3>Dear Hiring Manager,</h3>
+                    <div class="letter-date">February 2024</div>
+                </div>
+                <div class="letter-body">
+                    <p>I am writing to express my strong interest in joining your organization as a Data Science professional. As a current Bachelor of Science student in Data Science at KBN College with a strong foundation in analytics and programming, I am excited about the opportunity to contribute my skills and passion for data-driven solutions.</p>
+                    
+                    <p>Throughout my academic journey, I have developed proficiency in various technical tools including Tableau, HTML, CSS, and SQL. My experience with Python and data visualization has equipped me with the ability to analyze complex datasets and present insights in a clear, actionable manner.</p>
+                    
+                    <p>What particularly draws me to this field is the opportunity to solve real-world problems through data analysis and creative thinking. My academic projects and certifications in MS Office and Communications have honed my ability to work effectively both independently and as part of a team.</p>
+                    
+                    <p>I am particularly impressed with the innovative work being done in the data science field, and I am eager to contribute my analytical skills and fresh perspective to your team. My strong communication skills and ability to translate complex technical concepts into clear insights would make me a valuable addition to your organization.</p>
+                    
+                    <p>Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team's success.</p>
+                </div>
+                <div class="letter-footer">
+                    <p>Best Regards,</p>
+                    <p class="signature">V. Shanmukhapriya</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Featured Work</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="work-grid">
+            <div class="work-card" data-aos="fade-up">
+                <div class="work-image">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="work-overlay">
+                        <div class="work-links">
+                            <a href="#" class="work-link">Live Demo</a>
+                            <a href="#" class="work-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h3>Ancient Bot</h3>
+                    <p>Description of the project goes here. Explain the key features and technologies used.</p>
+                    <div class="work-tags">
+                        <span>Rasa Framework</span>
+                        <span>Html</span>
+                        <span>Css</span>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card" data-aos="fade-up">
+                <div class="work-image">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="work-overlay">
+                        <div class="work-links">
+                            <a href="#" class="work-link">Live Demo</a>
+                            <a href="#" class="work-link">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-info">
+                <h3>E-commerece Website</h3>
+                <p>Description of the project goes here. Explain the key features and technologies used.</p>
+                <div class="work-tags">
+                    <span>HTML</span>
+                    <span>Css</span>
+                    <span>Java Script</span>
+                </div>
+            </div>
+        </div>
+        <div class="work-card" data-aos="fade-up">
+            <div class="work-image">
+                <img src="project3.jpg" alt="Project 3">
+                <div class="work-overlay">
+                    <div class="work-links">
+                        <a href="#" class="work-link">Live Demo</a>
+                        <a href="#" class="work-link">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work-info">
+                <h3>Portfolio Website</h3>
+                <p>A modern and responsive portfolio website showcasing my skills, projects, and professional journey. Features smooth animations and interactive elements.</p>
+                <div class="work-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Get In Touch</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>shanmukhapriyavedantham@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>+91 8790212085</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-left">
+                <div class="form-group">
+                    <input type="text" required>
+                    <label>Name</label>
+                    <span class="line"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" required>
+                    <label>Email</label>
+                    <span class="line"></span>
+                </div>
+                <div class="form-group">
+                    <textarea required></textarea>
+                    <label>Message</label>
+                    <span class="line"></span>
+                </div>
+                <button type="submit" class="btn primary">
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Shanmukhapriya. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+
+    <div class="gradient-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="grid-pattern"></div>
+</body>
+</html> 
